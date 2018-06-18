@@ -2,9 +2,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginLeft="@dimen/padding_image"
-    android:layout_marginRight="@dimen/padding_image"
-    android:layout_marginTop="@dimen/padding_image"
     android:layout_marginBottom="@dimen/padding_image"
     android:background="@color/photo_placeholder"
     android:orientation="vertical">
@@ -12,7 +9,7 @@
     <ImageView
         android:id="@+id/thumbnail"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:contentDescription="@string/clickable_image" />
 
     <TextView
